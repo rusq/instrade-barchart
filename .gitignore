@@ -1,0 +1,33 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+
+# Browser profiles and session material
+browser-profile/
+browser-profiles/
+*cookies*
+*xsrf*
+*token*
+*waf*
+
+# Downloaded exports and captured/generated datasets
+*.ndjson
+output.json
+*20241102/
+
+# DuckDB databases and transient files
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+
+# backups
+*~
